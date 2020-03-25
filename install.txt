@@ -12,6 +12,10 @@ sudo apt-get install -y nodejs
 __react:
 sudo npm install -g create-react-app
 
+clonar repositorio:
+npm i = install all necessary dependencies
+npm start; 
+
 __python:
 sudo apt-get install python3.8
 sudo apt-get install idle-python3.8
