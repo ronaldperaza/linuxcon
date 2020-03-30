@@ -29,3 +29,12 @@ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.7 2
 sudo update-alternatives --config python
 
+
+__vscode:
+bracket pair colorizer
+code runner
+es6-string-html
+es7 react/redux
+identical sublime monokaid
+prettier
+seti-icons
