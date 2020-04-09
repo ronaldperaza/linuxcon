@@ -24,6 +24,10 @@ sudo apt-get install python3-setuptools
 sudo pip install virtualenv
 sudo pip install pipenv
 
+__virtualenv:
+python -m virtualenv env
+source env/bin/activate
+
 __Python alternatives:
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.7 2
