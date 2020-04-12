@@ -24,6 +24,11 @@ sudo apt-get install python3-setuptools
 sudo pip install virtualenv
 sudo pip install pipenv
 
+__django_Error:
+Class has no objects menber:
+terminal = pip install pylint-django 
+VSC= settings > User Settings > python. Find Linting: Pylint Path and change it to "pylint_django".
+
 __virtualenv:
 python -m virtualenv env
 source env/bin/activate
