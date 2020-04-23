@@ -36,7 +36,8 @@ source env/bin/activate
 __virtualenv Windows:
 python -m virtualenv env or python -m venv env
 error windows 10:
-error en Windows PowerShell que dice execution of scripts is disabled on this system. En este caso, abre otro Windows PowerShell con la opción "Ejecutar como administrador". Luego intenta escribir el siguiente comando antes de inicializar tu entorno virtual:
+error en Windows PowerShell que dice execution of scripts is disabled on this system. En este caso, abre otro Windows PowerShell 
+con la opción "Ejecutar como administrador". Luego intenta escribir el siguiente comando antes de inicializar tu entorno virtual:
 C:\WINDOWS\system32 > Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 
 
