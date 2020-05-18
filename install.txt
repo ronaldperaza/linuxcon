@@ -32,6 +32,7 @@ VSC= settings > User Settings > python. Find Linting: Pylint Path and change it 
 __virtualenv linux:
 python -m virtualenv env
 source env/bin/activate
+borrar entorno: rm -rf env
 
 __virtualenv Windows:
 python -m virtualenv env or python -m venv env
