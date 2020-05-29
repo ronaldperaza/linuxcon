@@ -50,6 +50,7 @@ sudo update-alternatives --config python
 
 
 __vscode:
+settings: toggle word wrap				 
 bracket pair colorizer
 code runner
 es6-string-html
@@ -57,3 +58,12 @@ es7 react/redux
 identical sublime monokaid
 prettier
 seti-icons
+dobri next themes
+material icon
+peacock
+ESLint
+docker
+debugger for chrome
+drawio
+vetur
+graphQL
