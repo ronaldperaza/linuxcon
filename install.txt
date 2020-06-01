@@ -1,3 +1,6 @@
+.rar:
+unrar x nombreArchivo.rar
+
 
 __file .deb:
 sudo dpkg -i
