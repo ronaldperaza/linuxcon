@@ -32,6 +32,10 @@ deb http://apt.postgresql.org/pub/repos/apt/ bionic-pgdg main
 sudo apt update
 sudo apt install pgadmin4
 
+postgres User:
+sudo -u postgres psql
+alter user postgres with password 'insertNewPassword';
+
 __file .deb:
 sudo dpkg -i
  
