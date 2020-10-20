@@ -36,6 +36,25 @@ postgres User:
 sudo -u postgres psql
 alter user postgres with password 'insertNewPassword';
 
+
+__MongoDB_Linux:
+- Update Repo:
+    sudo apt update
+- Install mongodb:
+    sudo apt install -y mongodb
+- Check mongodb esté instalado:
+    sudo systemctl status mongodb
+- See Version of mongodb:
+    mongo --eval 'db.runCommand({ connectionStatus: 1 })'
+- Para iniciar el servidor:
+    sudo systemctl start mongodb
+- Reiniciar el servidor:
+    sudo systemctl restart mongodb
+- Desactivar el inicio automático:
+    sudo systemctl disable mongodb
+- Desactivar el inicio automático::
+    sudo systemctl enable mongodb
+
 __file .deb:
 sudo dpkg -i
  
