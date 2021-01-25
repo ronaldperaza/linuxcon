@@ -124,3 +124,6 @@ debugger for chrome
 drawio
 vetur
 graphQL
+auto rename tag
+beautify
+djaneiro
