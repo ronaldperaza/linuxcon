@@ -107,7 +107,10 @@ sudo update-alternatives --config python
 
 
 __vscode:
-settings: toggle word wrap				 
+settings: toggle word wrap		
+generate-react-component
+Reactjs code snippets
+Simple React Snippets
 bracket pair colorizer
 code runner
 es6-string-html
